@@ -1,17 +1,16 @@
-for number in 1...100 {
-    var textToPrint = ""
+for i in 1...100 {
+    if i.isMultiple(of: 3){
+        print ("Fizz \(i)")
+        continue
+        }
+   else if i.isMultiple(of: 5){
+        print ("Buzz \(i)")
+        }
+    else if i.isMultiple(of: 3) && i.isMultiple(of: 5) {
+        print ("FizzBuzz \(i)")
 
-    if number.isMultiple(of: 3) {
-        textToPrint = "Fizz"
+        }
+    else {
+        print ("\(i)")
     }
-
-    if number.isMultiple(of: 5) {
-        textToPrint += "Buzz"
     }
-
-    if(textToPrint == "") {
-        textToPrint = "\(number)"
-    }
-
-    print(textToPrint)
-}
