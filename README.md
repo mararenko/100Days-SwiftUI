@@ -21,12 +21,14 @@ count also exists for sets.
 
 The problem is called fizz buzz, and has been used in job interviews, university entrance tests, and more for as long as I can remember. Your goal is to loop from 1 through 100, and for each number:
 
-If it's a multiple of 3, print "Fizz"
-If it's a multiple of 5, print "Buzz"
-If it's a multiple of 3 and 5, print "FizzBuzz"
-Otherwise, just print the number.
+1. If it's a multiple of 3, print "Fizz"
+2. If it's a multiple of 5, print "Buzz"
+3. If it's a multiple of 3 and 5, print "FizzBuzz"
+4. Otherwise, just print the number.
+
 So, here are some example values you should have when your code runs:
 
+```swift
 1 should print "1"
 2 should print "2"
 3 should print "Fizz"
@@ -38,3 +40,4 @@ So, here are some example values you should have when your code runs:
 15 should print "FizzBuzz"
 …
 100 should print "Buzz"
+```
